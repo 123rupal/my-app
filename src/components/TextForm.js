@@ -13,7 +13,7 @@ export default function TextForm(props) {
             setText(event.target.value);
         }}>
         </textarea>
-        </div>
+    </div>
 
         <button className="btn btn-primary mx-2" onClick={()=>{
             //console.log("Uppercase was clicked.");
